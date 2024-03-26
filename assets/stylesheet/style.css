@@ -259,6 +259,8 @@
 }
 .wlios div {
   cursor: pointer;
+
+  /* gap: 60px; */
 }
 .siyfha {
   border-top: 1px solid #eaecf0;
@@ -537,6 +539,16 @@ a {
   line-height: 24px;
   text-align: left;
   margin-top: 13px;
+}
+@media screen and (max-width: 768px) {
+  .complete {
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    color: #18181b;
+  }
 }
 @media screen and (max-width: 991px) {
   .aiiifn {
