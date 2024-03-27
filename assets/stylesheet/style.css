@@ -319,6 +319,16 @@
   text-align: center;
   color: #18181b;
 }
+.whiry1 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #767676;
+  width: 50%;
+  margin-top: 18px;
+}
 .whiry {
   font-family: Inter;
   font-size: 20px;
@@ -591,6 +601,16 @@ a {
   }
 }
 @media screen and (max-width: 991px) {
+  .whiry1 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #767676;
+  width: 90%;
+  margin-top: 18px;
+}
   .wefight2 {
   font-family: Inter;
   font-size: 32px;
