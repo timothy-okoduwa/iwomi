@@ -389,6 +389,7 @@ text-align: center;
   text-align: left;
   color: #667085;
   margin-top: 20px;
+  width:80%;
 }
 .sasau {
   display: flex;
@@ -590,6 +591,16 @@ a {
   }
 }
 @media screen and (max-width: 991px) {
+  .wefight2 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.73px;
+  text-align: left;
+  color: #667085;
+  margin-top: 20px;
+  width:100%;
+}
   .aiiifn {
     display: flex;
     width: 100%;
