@@ -409,6 +409,7 @@ text-align: center;
 }
 .rowd {
   display: flex;
+  justify-content:center;
   gap: 23px;
   flex-wrap: wrap;
 }
