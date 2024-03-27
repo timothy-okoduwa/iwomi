@@ -103,7 +103,8 @@
                     <div class="Trusted">
                         <span>Trusted by leading banks and fintechs</span>
                     </div>
-                    <marquee behavior="scroll" direction="left">
+                    <div class="slides-container">
+
                         <div class="slides">
 
                             <div class="stare">
@@ -199,7 +200,11 @@
                             </div>
 
                         </div>
-                    </marquee>
+
+                    </div>
+
+
+
                 </div>
 
             </div>
@@ -471,6 +476,11 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
+        <script>
+            setTimeout(function () {
+                document.getElementById("myMarquee").setAttribute("scrollamount", "10");
+            }, 3000); // Adjust the time (in milliseconds) before scrolling begins
+        </script>
     </body>
 
 </html>

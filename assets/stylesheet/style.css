@@ -98,11 +98,23 @@
 }
 .slides {
   display: flex;
-  /* overflow-x: hidden; */
   align-items: center;
   gap: 30px;
   margin-top: 40px;
   margin-bottom: 40px;
+  animation: scrollAnimation 10s linear infinite;
+}
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slides-container {
+  overflow: hidden;
 }
 .stare {
   height: 40px;
@@ -359,6 +371,15 @@
   color: #667085;
   margin-top: 20px;
 }
+.wefight2 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.73px;
+  text-align: left;
+  color: #667085;
+  margin-top: 20px;
+}
 .sasau {
   display: flex;
   height: 100%;
@@ -372,15 +393,23 @@
 }
 .pdpd {
   font-family: Inter;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   color: #131312;
   height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .actives {
   border-bottom: 1px solid #a5c852;
-  color: #a5c852 !important;
+  background-color: #a5c852 !important;
+  padding: 14px;
+  display: flex;
+  border-radius: 17px;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
