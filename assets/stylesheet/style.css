@@ -410,8 +410,13 @@ text-align: center;
 .rowd {
   display: flex;
   justify-content:center;
+   align-items: center;
   gap: 23px;
   flex-wrap: wrap;
+  height:80px;
+  width:100%;
+  border-radius:50px;
+  background-color:#F5F5F5;
 }
 .pdpd {
   font-family: Inter;
